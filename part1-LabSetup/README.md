@@ -43,6 +43,42 @@ As much as I trust the official website, the error can happen during the downloa
 
 As you can see I used PowerShell to check the hash. The command is `Get-FileHash <file>`. You can drag and drop the file to the PowerShell.
 
+The rest of the process will pretty much follow the instruction video so I will not go into too much details.
+
+I have more than 1 Kali VMs so I am finding a way to distingush between them since I cannot change the name of the VM when it is a VMWare VM image rather than installing from .iso image.
+
+![distingushWhichKaliIAmUsing](KaliSetup/KaliForADLab1.png)
+
+I finished installing Pimpmykali.
+
+![installPimpmykali](KaliSetup/KaliForADLab1-1-installedPimpmykali.png)
+
+## Windows 10 Installation
+
+![reviewBeforeInstalling](Windows10-PC2-Setup/Windows10PC1-PowerOff-1_ReviewBeforeInstalling.png)
+
+![selectVMLocation](Windows10-PC2-Setup/Windows10PC1-PowerOff-2_NameTheVMAndSelectLocation.png)
+
+![PowerOnChoosingKeyboard](Windows10-PC2-Setup/Windows10PC1-1_choosingKeyboard.png)
+
+![setLocalAdmin](Windows10-PC2-Setup/Windows10PC1-2_setLocalAdmin.png)
+
+![domainJoinSignInOption](Windows10-PC2-Setup/Windows10PC1-3_domainJoinSignInOption.png)
+
+![installVMWareTools](Windows10-PC2-Setup/Windows10PC1-4_installVMWareTools.png)
+
+![renamePC](Windows10-PC2-Setup/Windows10PC1-5_renamePC.png)
+
+## Windows 11 Installation
+
+## Windows Server 2022 Installation And Promoting It To Domain Controller
+
+![installVMWareTools](WindowsServerSetup/WindowsServer2022-0_InstallVMWareTool1.png)
+
+## Setup Users And Group Policies
+
+## Domain Join
+
 ***Sangsongthong***
 | ***Hexterika Cyber Lab***
 | ***Founder, CEO, and Sole Worker***
