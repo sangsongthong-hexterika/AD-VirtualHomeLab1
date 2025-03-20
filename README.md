@@ -22,3 +22,5 @@ As the Cyber Mentor said in the video, his teaching was focusing on the core fun
 I have decided to follow his teaching and disable it as well. I intend to learn AV evasion techniques, but it will not be the core focus of this lab.
 
 It may be the new parts of this lab or it may has its own repo call AD-VirtualHomeLab2, 3, 4, etc. This one is the main fundamental techniques. The rest will be built from the fundamental knowledge I gained from this lab.
+
+By the way, I had created a similiar virtual home lab before when I had just started out and I did not document anything. This one is the one I actually am getting more serious with it because I know what I am doing more than the last time. This one is different than the last time.
