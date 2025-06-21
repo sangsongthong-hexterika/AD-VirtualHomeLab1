@@ -19,8 +19,20 @@ I will update it once I add more information.
 
 As the Cyber Mentor said in the video, his teaching was focusing on the core fundamental techniques; the AV evasion techniques are the ongoing changes topic that keep changing so in his lab he disabled Windows Defender.
 
-I have decided to follow his teaching and disable it as well. I intend to learn AV evasion techniques, but it will not be the core focus of this lab.
+I have decided to follow his teaching and disable it as well. I intend to learn AV evasion techniques, but it will not be the core focus of this lab. At least not in the early phase.
 
 It may be the new parts of this lab or it may has its own repo call AD-VirtualHomeLab2, 3, 4, etc. This one is the main fundamental techniques. The rest will be built from the fundamental knowledge I gained from this lab.
 
 By the way, I had created a similiar virtual home lab before when I had just started out and I did not document anything. This one is the one I actually am getting more serious with it because I know what I am doing more than the last time. This one is different than the last time.
+
+## The Purpose Of This Lab
+
+This lab is the documentation of my learning about Active Directory. Active Directory is a huge topic so I have divided it into phases:
+
+Phase 1: The learning is focused on what is the functionality of Active Directory and how it works to pursue the role of System Administration. This is the core fundamentality of Active Directory.
+
+Phase 2: The learning is focused on Active Directory Penetration Testing core fundamental. There will be no sophisticated AV evasion at this point.
+
+Phase 3: After the Active Directory got attacked from a hacker, me, the system administrator, also me, is strengthening my system to prevent recurring attacks. This phase will focus on system hardening.
+
+Phase 4: This one will be something more sophisticated such as AV Evasion.
