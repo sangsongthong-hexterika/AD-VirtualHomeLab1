@@ -11,7 +11,8 @@ Reference video: [AD Pentest by The Cyber Mentor](https://youtu.be/VXxH4n684HE?s
 
 Different parts:
 
-1. Lab Setup
++ Lab Setup
+  + Consists of each individual VM setup and then combining them together.
 
 I will update it once I add more information.
 
@@ -27,12 +28,4 @@ By the way, I had created a similiar virtual home lab before when I had just sta
 
 ## The Purpose Of This Lab
 
-This lab is the documentation of my learning about Active Directory. Active Directory is a huge topic so I have divided it into phases:
-
-Phase 1: The learning is focused on what is the functionality of Active Directory and how it works to pursue the role of System Administration. This is the core fundamentality of Active Directory.
-
-Phase 2: The learning is focused on Active Directory Penetration Testing core fundamental. There will be no sophisticated AV evasion at this point.
-
-Phase 3: After the Active Directory got attacked from a hacker, me, the system administrator, also me, is strengthening my system to prevent recurring attacks. This phase will focus on system hardening.
-
-Phase 4: This one will be something more sophisticated such as AV Evasion.
+This lab is the documentation of my learning about Active Directory Penetration Testing.
