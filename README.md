@@ -1,31 +1,54 @@
 # Active Directory Home Lab
 
-This virtual home lab is about Active Directory Penetration Testing. I followed the instruction from The Cyber Mentor from TCM Security YouTube Channel loosely.
+A structured home lab for learning and documenting Active Directory penetration testing techniques. Built across progressive parts — lab environment setup first, then offensive attack chain practice.
 
-By loosely I mean there are something in my lab that are different from the video. Nevertheless, I will reference the video below for your reference.
+The lab environment mirrors the enterprise Active Directory infrastructure I encountered professionally at the Synchrotron Light Research Institute, where I supported Windows endpoint deployment and domain join operations. Building this lab from scratch as the administrator deepened that hands-on familiarity from both sides of the environment.
 
-Since Active Directory is a huge topic, I follow this video so I won't get lost in the learning process.
-For the same reason, I have decided to divide the learning into different parts as shown below.
-
+For the offensive techniques, this lab follows TCM Security's AD penetration testing curriculum loosely as a structured foundation, with personal variations in configuration.
 Reference video: [AD Pentest by The Cyber Mentor](https://youtu.be/VXxH4n684HE?si=feCTe7oTs0s6NbSZ)
 
-Different parts:
+---
 
-+ Lab Setup
-  + Consists of each individual VM setup and then combining them together.
+## Lab Structure
 
-I will update it once I add more information.
+| Part | Folder | Status |
+| --- | --- | --- |
+| Part 1 — Lab Setup | `part1-LabSetup` | ✅ Complete |
+| Part 2 — Attack Chain Practice | `part2-Hacking` | 🔄 In Progress |
+
+---
+
+## Part 1 — Lab Setup
+
+Covers building the full virtual AD environment from scratch using VMware and VirtualBox:
+
++ Windows Server configured as Active Directory Domain Controller (ADDC)
++ Domain join for Windows endpoints
++ Network configuration across VMs to simulate an enterprise environment
+
+This setup mirrors the kind of AD environment found in real enterprise deployments — the same infrastructure SOC analysts monitor and defend.
+
+---
+
+## Part 2 — Attack Chain Practice *(In Progress)*
+
+Will cover offensive techniques against the lab environment following industry-standard AD attack methodology:
+
++ Initial access and enumeration
++ Privilege escalation
++ Lateral movement
++ Domain compromise
+
+Each technique will be documented with step-by-step notes and tooling used. A professional-style report will be produced at the end of the full attack chain.
+
+---
 
 ## Disclaimer
 
-As the Cyber Mentor said in the video, his teaching was focusing on the core fundamental techniques; the AV evasion techniques are the ongoing changes topic that keep changing so in his lab he disabled Windows Defender.
+Windows Defender is disabled in this lab environment. This follows TCM Security's teaching approach — the focus here is on core AD attack fundamentals, not AV evasion. AV evasion techniques may be covered in a future lab (ActiveDirectory-HomeLab 2 or similar).
 
-I have decided to follow his teaching and disable it as well. I intend to learn AV evasion techniques, but it will not be the core focus of this lab. At least not in the early phase.
+---
 
-It may be the new parts of this lab or it may has its own repo call AD-VirtualHomeLab2, 3, 4, etc. This one is the main fundamental techniques. The rest will be built from the fundamental knowledge I gained from this lab.
+## About
 
-By the way, I had created a similiar virtual home lab before when I had just started out and I did not document anything. This one is the one I actually am getting more serious with it because I know what I am doing more than the last time. This one is different than the last time.
-
-## The Purpose Of This Lab
-
-This lab is the documentation of my learning about Active Directory Penetration Testing.
+This is ActiveDirectory-HomeLab 1. Future labs will build on the fundamentals documented here.
