@@ -2,7 +2,7 @@
 
 Search for Kali linux on Google, navigate to their official website to download Kali Linux.
 
-Please do not ignore checking the `checksum`. It is a good security practice to check the file integrity even though I downloaded it from the official source. Redundancy is the key. It never heard to check.
+Please do not ignore checking the `checksum`. It is a good security practice to check the file integrity even though I downloaded it from the official source. Redundancy is the key. It never hard to check.
 
 By the way, I have encountered a situation where the `checksum` mismatch between the download file and what was written on their official website even though it was not from Kali Linux, so I am being careful here.
 
@@ -31,4 +31,4 @@ After cloning the repository, follow the instruction on how to set it up from th
 ---
 
 Author: Sangsongthong C.
-Published Date: 23 June 2025
+Published Date: July 11, 2026
