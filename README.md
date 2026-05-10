@@ -13,7 +13,7 @@ Reference video: [AD Pentest by The Cyber Mentor](https://youtu.be/VXxH4n684HE?s
 
 | Part | Folder | Status |
 | --- | --- | --- |
-| Part 1 — Lab Setup | `part1-LabSetup` | ✅ Complete |
+| Part 1 — Lab Setup | `part1-LabSetup` | 🔄 In Progress |
 | Part 2 — Attack Chain Practice | `part2-Hacking` | 🔄 In Progress |
 
 ---
