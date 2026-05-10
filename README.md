@@ -1,4 +1,4 @@
-# About This Virtual Home Lab 1
+# Active Directory Home Lab
 
 This virtual home lab is about Active Directory Penetration Testing. I followed the instruction from The Cyber Mentor from TCM Security YouTube Channel loosely.
 

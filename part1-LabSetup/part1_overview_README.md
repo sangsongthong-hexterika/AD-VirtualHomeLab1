@@ -1,4 +1,4 @@
-# The Lab Setup Overview
+# Part 1: Lab Setup Overview
 
 This lab is done on VMWare on a Windows 11 host. The below are the machines.
 

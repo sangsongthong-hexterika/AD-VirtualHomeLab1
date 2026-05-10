@@ -2,14 +2,29 @@
 
 Continuing from the server setup from the previous part, at this point the server has AD installed. From this point onwards, I'm going to setup the AD for the real usage by creating users, groups, and services policies.
 
-On the **Server Manager**, click 
+At the top right corner of the **Server Manager**, click on **Tools**. Then, choose **Active Directory Users and Computer**. As shown in the screenshot below.
+
 ![DC_1_ToolsADUserAndComputer](images/DC_1_ToolsADUserAndComputer.png)
+
+A new window calls **Active Directory Users and Computer** pops-up after that. To see that we are on the same page, the screenshot below shows my current step.
 
 ![DC_2_ADUserAndComputer](images/DC_2_ADUserAndComputer.png)
 
+Take a look at the left column. Right click on your domain name. Mine is SPIDER.local. Choose **New** and then **Organizational Unit** or **OU** to create a new OU.
+
+To verify that we are both onboarded, take a look at the screenshot below.
+
 ![DC_3_CreateANewOU](images/DC_3_CreateANewOU.png)
 
+After that a new window called **New Object - Organizational Unit** appears. Type the name of the OU and click OK. Mine is **Groups** as shown in the screenshot below.
+
 ![DC_4_NameANewOU](images/DC_4_NameANewOU.png)
+
+After hitting the **OK** button, you can see that a new OU called **Groups** appears as a new subfolder on the left column.
+
+The screenshot below highlight that a new OU's name's Groups is successfully created. However, be aware that in this screenshot I was in the **Users** OU, not Groups, so the members shown on the right column belongs to the OU's name's **Users**.
+
+There, you can see that **Administrator** and **Guest** are the two default built-in accounts.
 
 ![DC_5_ClearOffUsers](images/DC_5_ClearOffUsers.png)
 
