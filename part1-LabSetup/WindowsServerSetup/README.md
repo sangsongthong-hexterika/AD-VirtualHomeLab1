@@ -139,9 +139,8 @@ This is it. The process of setting up the Windows Server, configuring the Active
 
 As you can see, if you can log in as `SPIDER-PT\Administrator` after rebooting the system, it means you have set it up correctly.
 
-The important part is that instead of logging in as a **username**, the system shows the **NetBIOS name** + \ + user.
+The important part is that instead of logging in as a **username**, the system shows the **NetBIOS name** + **\** + user.
 
 ---
 
-**Author:** Sangsongthong C.
-**Publishing Date:** 23 June 2025
+**Author:** Sangsongthong Chantaranothai
