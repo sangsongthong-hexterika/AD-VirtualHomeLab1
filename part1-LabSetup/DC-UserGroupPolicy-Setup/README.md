@@ -26,6 +26,10 @@ The screenshot below highlight that a new OU's name's Groups is successfully cre
 
 There, you can see that **Administrator** and **Guest** are the two default built-in accounts.
 
+---
+
+Creating Chrollo as a domain admin user
+
 ![DC_5_ClearOffUsers](images/DC_5_ClearOffUsers.png)
 
 ![DC_6_SeeDomainAdminMemberOf](images/DC_6_SeeDomainAdminMemberOf.png)
@@ -36,11 +40,19 @@ There, you can see that **Administrator** and **Guest** are the two default buil
 
 ![DC_9_FinishCreatingChrollo](images/DC_9_FinishCreatingChrollo.png)
 
+---
+
+Creating regular users (Hisoka, Illumi)
+
 ![DC_10_CreateARegularUser](images/DC_10_CreateARegularUser.png)
 
 ![DC_11_FinishCreatingRegularUserHisoka](images/DC_11_FinishCreatingRegularUserHisoka.png)
 
 ![DC_12_FinishCreatingRegularUserIllumi](images/DC_12_FinishCreatingRegularUserIllumi.png)
+
+---
+
+Checking users properties
 
 ![DC_13_checkIllumiProperties](images/DC_13_checkIllumiProperties.png)
 
@@ -48,11 +60,21 @@ There, you can see that **Administrator** and **Guest** are the two default buil
 
 ![DC_15_checkChrolloProperties](images/DC_15_checkChrolloProperties.png)
 
+---
+
+Creating SQL service account with password in the description.
+
+It's intentionally misconfigured as a vulnerability for the pentest phase because this is a common practice that can lead to security vulnerability that worth being shown.
+
 ![DC_16_create.SQLServiceAccountAsADomainAdmin](images/DC_16_create.SQLServiceAccountAsADomainAdminpng.png)
 
 ![DC_17_FinishCreatingSQLServiceAccount](images/DC_17_FinishCreatingSQLServiceAccount.png)
 
 ![DC_18_SQLServiceAccountPasswordInDescription](images/DC_18_SQLServiceAccountPasswordInDescription.png)
+
+---
+
+Setting up file share service via SMB
 
 ![DC_19_filesShareService](images/DC_19_filesShareService.png)
 
@@ -72,11 +94,16 @@ There, you can see that **Administrator** and **Guest** are the two default buil
 
 ![DC_27_result](images/DC_27_result.png)
 
+---
+
+Opening port 445
+
 ![DC_28_setShareFolderToOpenPort445](images/DC_28_setShareFolderToOpenPort445.png)
+
+---
+
+Confirming users
 
 ![DC_29_confirmUsers](images/DC_29_confirmUsers.png)
 
 ---
-
-**Author:** Sangsongthong C.
-**Published Date:**
