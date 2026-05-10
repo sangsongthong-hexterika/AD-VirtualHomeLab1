@@ -30,5 +30,4 @@ After cloning the repository, follow the instruction on how to set it up from th
 
 ---
 
-Author: Sangsongthong C.
-Published Date: July 11, 2026
+Author: Sangsongthong Chantaranothai
