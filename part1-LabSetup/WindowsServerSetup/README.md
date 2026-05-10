@@ -28,7 +28,7 @@ Next, I will move on to configuring **Active Directory (AD)**. Open the **Server
 
 After clicking **Add Roles and Features**, choose the **installation type**. Even though I am on a Virtual Machine, the goal is to learn its functionality as I would use it on a non-VM machine, so I select **Role-based or feature-based installation**.
 
-I can deal with the specific setup for the server on a VM later if I want to.
+VM-specific configuration can be addressed separately if needed.
 
 Then, click **Next**. The screenshot below shows the current step I did.
 
@@ -93,7 +93,7 @@ The screenshot below shows the steps I took.
 
 ![Step_11_AddANewForest](images/WindowsServer2022_11_AddANewForest.png)
 
-In the **Domain Controller Options** section, enter a chosen password. Although the system incorrectly detected the version of this server, this is not a significant issue at the moment and can be ignored. After that, click **Next**.
+In the **Domain Controller Options** section, enter a chosen password. After that, click **Next**.
 
 As usual, take a look at the reference in the screenshot below.
 
