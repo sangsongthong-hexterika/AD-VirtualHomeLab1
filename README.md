@@ -52,3 +52,11 @@ Windows Defender is disabled in this lab environment. This follows TCM Security'
 ## About
 
 This is ActiveDirectory-HomeLab 1. Future labs will build on the fundamentals documented here.
+
+## Third-Party Content
+
+This repository may include screenshots, trademarks, logos, product names, or other materials from third-party software, operating systems, training providers, and educational resources used throughout the lab.
+
+Such materials remain the property of their respective owners and are included solely for educational, documentation, and professional portfolio purposes.
+
+The MIT License applies only to the original content created for this repository and does not grant rights to third-party intellectual property.
